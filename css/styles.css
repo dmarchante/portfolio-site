@@ -3,7 +3,12 @@ body {
     color: #52CCCE;
 }
 
-h1,  h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -17,7 +22,7 @@ img {
 }
 
 .border {
-   border: 1px solid #677c8a;
+    border: 1px solid #677c8a;
 }
 
 .padding {
@@ -59,18 +64,26 @@ img {
     /*text-shadow: 3px 3px 3px #aaa;*/
     width: 2em;
     font-size: 36px;
-    }
+}
+
 a:hover [class*="zocial-"]:before {
     color: #52CCCE;
 }
+
+a {
+    color: #52CCCE;
+}
+
 a:hover {
     color: #52CCCE;
     text-decoration: underline;
 }
+
 a:-webkit-any-link {
     cursor: auto;
 }
-@media only screen and (max-width: 450px)  {
+
+@media only screen and (max-width: 450px) {
     [class*="zocial-"]:before {
         font-size: 24px;
     }
